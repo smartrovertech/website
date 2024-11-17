@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolving - SmartRoverTech</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: monospace, Arial, sans-serif;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .container {
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      animation: fadeIn 2.5s ease-in-out;
+    }
+    .countdown {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .countdown div {
+      text-align: center;
+    }
+    .countdown span {
+      display: block;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    .countdown label {
+      font-size: 1em;
+      text-transform: uppercase;
+    }
+    .email-form input {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .email-form button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background: #ff9800;
+      color: white;
+      cursor: pointer;
+    }
+    .email-form button:hover {
+      background: #e68a00;
+    }
+    footer {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      width: 100%;
+      font-size: 0.9em;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Smart Rover Tech</h1>
+    <p>Get ready for launch – we're almost operational!</p>
+  </div>
+  <footer>© 2024 SmartRoverTech. All Rights Reserved.</footer>
+</body>
+</html>
